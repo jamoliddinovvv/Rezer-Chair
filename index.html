@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Explore Razer gaming chairs: ergonomic support, breathable mesh, immersive designs, and everyday comfort." />
+    <meta name="theme-color" content="#000000" />
+    <title>Razer Gaming Chairs — Find your fit</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <div class="utility-bar">
+      <a href="#chair-lines">PC <span>⌄</span></a>
+      <span class="utility-current">Chairs</span>
+      <div class="utility-actions"><a href="#chair-lines" aria-label="Browse chairs">⌕</a><a href="https://www.razer.com/gaming-chairs/razer-iskur-v2-newgen" target="_blank" rel="noopener noreferrer" aria-label="Shop Razer chairs">♧</a></div>
+    </div>
+
+    <header class="site-header">
+      <a class="razer-brand" href="#" aria-label="Razer home"><span class="razer-mark" aria-hidden="true">三</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open navigation"><span></span><span></span><span></span></button>
+      <nav class="primary-nav" id="primary-nav" aria-label="Main navigation">
+        <a href="#chair-lines">Gaming chairs</a>
+        <a href="#compare">Compare</a>
+        <a href="#support">Support</a>
+      </nav>
+      <a class="shop-link" href="#chair-lines">EXPLORE CHAIRS <span aria-hidden="true">↗</span></a>
+    </header>
+
+    <main>
+      <nav class="quick-links" aria-label="Browse chair features">
+        <button class="quick-link selected" type="button" data-filter="all" aria-pressed="true"><span class="quick-icon icon-all">◈</span><span>All chairs</span></button>
+        <button class="quick-link" type="button" data-filter="immersive" aria-pressed="false"><span class="quick-icon">♧</span><span>Immersive</span></button>
+        <button class="quick-link" type="button" data-filter="ergonomic" aria-pressed="false"><span class="quick-icon">♙</span><span>Ergonomic</span></button>
+        <button class="quick-link" type="button" data-filter="comfort" aria-pressed="false"><span class="quick-icon">◉</span><span>Comfort</span></button>
+        <button class="quick-link" type="button" data-filter="breathable" aria-pressed="false"><span class="quick-icon">♧</span><span>Breathable</span></button>
+        <a class="quick-link" href="#accessories"><span class="quick-icon cushion-icon">▰</span><span>Chair accessories</span></a>
+        <a class="quick-link compare-quick" href="#compare"><span class="quick-icon">⇄</span><span>Compare</span></a>
+      </nav>
+
+      <div class="shipping-banner">All orders over €99 will enjoy free standard shipping to Europe. <a href="#chair-lines">Shop Now <span aria-hidden="true">›</span></a></div>
+
+      <section class="category-hero">
+        <div class="hero-copy">
+          <p class="eyebrow"><span></span> FIND YOUR WAY TO COMFORT</p>
+          <h1>GAMING <span>CHAIRS</span></h1>
+          <p>Find the support you’re looking for with a range of specialized gaming chairs engineered to meet your exact needs. From ergonomic support to all-day comfort and breathable mesh, find your fit.</p>
+        </div>
+        <div class="hero-image">
+          <img src="assets/category-chairs-hero.jpg" alt="A collection of Razer gaming chairs" fetchpriority="high" />
+          <span class="hero-image-label">FIND YOUR FIT <i>01 — 04</i></span>
+        </div>
+      </section>
+
+      <section class="chair-lines page-shell" id="chair-lines">
+        <div class="line-heading">
+          <div><p class="eyebrow"><span></span> SEATING, YOUR WAY</p><h2>Explore the <span>chair lines.</span></h2></div>
+          <p>From adaptive ergonomic support to breathable mesh, discover the chair designed around how you play.</p>
+        </div>
+
+        <section class="product-line" data-line="immersive">
+          <div class="line-title"><div><span class="line-index">01 / IMMERSIVE</span><h2>The Razer <span>Soma</span> line</h2></div><span class="line-description">LIGHT, SOUND, AND COMFORT IN SYNC</span></div>
+          <div class="product-grid">
+            <article class="product-card" data-category="immersive" data-product="soma">
+              <a class="product-image" href="https://www.razer.com/gaming-chairs/razer-soma-chroma" target="_blank" rel="noopener noreferrer">
+                <span class="product-tag">IMMERSIVE</span><img src="assets/soma-chroma.webp" alt="Razer Soma Chroma gaming chair" loading="lazy" /><span class="image-arrow">↗</span>
+              </a>
+              <div class="product-info"><span class="product-kicker">WIRELESS RGB GAMING CHAIR</span><h3>Razer Soma Chroma</h3><p>Bring a more immersive feel to your space.</p><div class="product-actions"><a href="https://www.razer.com/gaming-chairs/razer-soma-chroma" target="_blank" rel="noopener noreferrer">LEARN MORE <span>↗</span></a><button class="compare-button" type="button" data-compare="soma" aria-pressed="false">+ COMPARE</button></div></div>
+            </article>
+          </div>
+        </section>
+
+        <section class="product-line" data-line="ergonomic">
+          <div class="line-title"><div><span class="line-index">02 / ERGONOMIC</span><h2>The Razer <span>Iskur</span> line</h2></div><span class="line-description">ENGINEERED FOR ERGONOMICS</span></div>
+          <div class="product-grid">
+            <article class="product-card" data-category="ergonomic comfort" data-product="iskur-newgen">
+              <a class="product-image" href="https://www.razer.com/gaming-chairs/razer-iskur-v2-newgen" target="_blank" rel="noopener noreferrer">
+                <span class="product-tag">ERGONOMIC</span><img src="assets/iskur-v2-newgen.webp" alt="Razer Iskur V2 NewGen gaming chair" loading="lazy" /><span class="image-arrow">↗</span>
+              </a>
+              <div class="product-info"><span class="product-kicker">ADAPTIVE LUMBAR SUPPORT</span><h3>Razer Iskur V2 NewGen</h3><p>Engineered for ergonomics. Crafted for comfort.</p><div class="product-actions"><a href="https://www.razer.com/gaming-chairs/razer-iskur-v2-newgen" target="_blank" rel="noopener noreferrer">LEARN MORE <span>↗</span></a><button class="compare-button" type="button" data-compare="iskur-newgen" aria-pressed="false">+ COMPARE</button></div></div>
+            </article>
+            <article class="product-card" data-category="ergonomic comfort" data-product="iskur-x-newgen">
+              <a class="product-image" href="https://www.razer.com/gaming-chairs/razer-iskur-v2-x-newgen" target="_blank" rel="noopener noreferrer">
+                <span class="product-tag">ERGONOMIC</span><img src="assets/iskur-v2-x-newgen.webp" alt="Razer Iskur V2 X NewGen gaming chair" loading="lazy" /><span class="image-arrow">↗</span>
+              </a>
+              <div class="product-info"><span class="product-kicker">ESSENTIAL ERGONOMICS</span><h3>Razer Iskur V2 X NewGen</h3><p>Essential ergonomics. Core comfort.</p><div class="product-actions"><a href="https://www.razer.com/gaming-chairs/razer-iskur-v2-x-newgen" target="_blank" rel="noopener noreferrer">LEARN MORE <span>↗</span></a><button class="compare-button" type="button" data-compare="iskur-x-newgen" aria-pressed="false">+ COMPARE</button></div></div>
+            </article>
+            <article class="product-card" data-category="ergonomic comfort" data-product="iskur-x">
+              <a class="product-image" href="https://www.razer.com/gaming-chairs/razer-iskur-v2-x" target="_blank" rel="noopener noreferrer">
+                <span class="product-tag">ERGONOMIC</span><img src="assets/iskur-v2-x.webp" alt="Razer Iskur V2 X gaming chair" loading="lazy" /><span class="image-arrow">↗</span>
+              </a>
+              <div class="product-info"><span class="product-kicker">CORE GAMING ERGONOMICS</span><h3>Razer Iskur V2 X</h3><p>Supportive comfort for everyday play.</p><div class="product-actions"><a href="https://www.razer.com/gaming-chairs/razer-iskur-v2-x" target="_blank" rel="noopener noreferrer">LEARN MORE <span>↗</span></a><button class="compare-button" type="button" data-compare="iskur-x" aria-pressed="false">+ COMPARE</button></div></div>
+            </article>
+          </div>
+        </section>
+
+        <section class="product-line" data-line="comfort">
+          <div class="line-title"><div><span class="line-index">03 / ALL-DAY COMFORT</span><h2>The Razer <span>Enki</span> line</h2></div><span class="line-description">COMFORT FOR THE LONG GAME</span></div>
+          <div class="product-grid">
+            <article class="product-card" data-category="comfort" data-product="enki">
+              <a class="product-image" href="https://www.razer.com/gaming-chairs/razer-enki" target="_blank" rel="noopener noreferrer">
+                <span class="product-tag">COMFORT</span><img src="assets/enki.webp" alt="Razer Enki gaming chair" loading="lazy" /><span class="image-arrow">↗</span>
+              </a>
+              <div class="product-info"><span class="product-kicker">ALL-DAY GAMING CHAIR</span><h3>Razer Enki</h3><p>Comfort designed for extended gaming sessions.</p><div class="product-actions"><a href="https://www.razer.com/gaming-chairs/razer-enki" target="_blank" rel="noopener noreferrer">LEARN MORE <span>↗</span></a><button class="compare-button" type="button" data-compare="enki" aria-pressed="false">+ COMPARE</button></div></div>
+            </article>
+            <article class="product-card" data-category="comfort" data-product="enki-x">
+              <a class="product-image" href="https://www.razer.com/gaming-chairs/razer-enki-x" target="_blank" rel="noopener noreferrer">
+                <span class="product-tag">COMFORT</span><img src="assets/enki-x.webp" alt="Razer Enki X gaming chair" loading="lazy" /><span class="image-arrow">↗</span>
+              </a>
+              <div class="product-info"><span class="product-kicker">ESSENTIAL ALL-DAY COMFORT</span><h3>Razer Enki X</h3><p>Everyday comfort with a clean, supportive profile.</p><div class="product-actions"><a href="https://www.razer.com/gaming-chairs/razer-enki-x" target="_blank" rel="noopener noreferrer">LEARN MORE <span>↗</span></a><button class="compare-button" type="button" data-compare="enki-x" aria-pressed="false">+ COMPARE</button></div></div>
+            </article>
+          </div>
+        </section>
+
+        <section class="product-line" data-line="breathable">
+          <div class="line-title"><div><span class="line-index">04 / BREATHABLE</span><h2>The Razer <span>Fujin</span> line</h2></div><span class="line-description">MESH THAT MOVES WITH YOU</span></div>
+          <div class="product-grid">
+            <article class="product-card" data-category="breathable comfort" data-product="fujin">
+              <a class="product-image" href="https://www.razer.com/gaming-chairs/razer-fujin" target="_blank" rel="noopener noreferrer">
+                <span class="product-tag">BREATHABLE</span><img src="assets/fujin.webp" alt="Razer Fujin breathable mesh gaming chair" loading="lazy" /><span class="image-arrow">↗</span>
+              </a>
+              <div class="product-info"><span class="product-kicker">BREATHABLE MESH CHAIR</span><h3>Razer Fujin</h3><p>Airy mesh comfort with ergonomic support.</p><div class="product-actions"><a href="https://www.razer.com/gaming-chairs/razer-fujin" target="_blank" rel="noopener noreferrer">LEARN MORE <span>↗</span></a><button class="compare-button" type="button" data-compare="fujin" aria-pressed="false">+ COMPARE</button></div></div>
+            </article>
+          </div>
+        </section>
+
+        <p class="no-results" hidden>No chairs in this category right now.</p>
+      </section>
+
+      <section class="compare-section" id="compare">
+        <div class="page-shell compare-inner">
+          <div><p class="eyebrow"><span></span> MAKE THE RIGHT CALL</p><h2>Need a hand<br />choosing?</h2><p>Select up to three chairs to compare what matters to you.</p></div>
+          <div class="compare-tray"><span class="compare-count">0 / 3 SELECTED</span><div class="compare-slots"><span>Choose a chair above</span><span>Choose a chair above</span><span>Choose a chair above</span></div><p class="compare-message" aria-live="polite">Select at least two chairs to compare.</p><button class="compare-action" type="button" disabled>COMPARE NOW <span>↗</span></button><div class="comparison-result" hidden></div></div>
+        </div>
+      </section>
+
+      <section class="accessories page-shell" id="accessories">
+        <div class="line-heading"><div><p class="eyebrow"><span></span> ADD A LITTLE EXTRA</p><h2>Chair <span>accessories.</span></h2></div><p>Small details that make your setup feel more like yours.</p></div>
+        <div class="accessory-grid">
+          <article class="accessory-card"><div><span>PERSONAL AUDIO</span><img src="assets/clio.webp" alt="Razer Clio chair-mounted wireless speaker" loading="lazy" /></div><h3>Razer Clio</h3><p>Chair-mounted wireless speaker</p><a href="https://www.razer.com/gaming-chairs/razer-clio" target="_blank" rel="noopener noreferrer">LEARN MORE <span>↗</span></a></article>
+          <article class="accessory-card"><div><span>ESSENTIAL AUDIO</span><img src="assets/clio-x.webp" alt="Razer Clio X chair-mounted speaker" loading="lazy" /></div><h3>Razer Clio X</h3><p>Personal audio for your chair</p><a href="https://www.razer.com/gaming-chairs/razer-clio-x" target="_blank" rel="noopener noreferrer">LEARN MORE <span>↗</span></a></article>
+        </div>
+      </section>
+
+      <section class="faq-section page-shell" id="support">
+        <div><p class="eyebrow"><span></span> QUESTIONS, ANSWERED</p><h2>Before you<br /><span>settle in.</span></h2></div>
+        <div class="faq-list">
+          <details><summary>Which chair line should I look at first?<span>+</span></summary><p>Start with what matters most to you: Iskur is the ergonomic line, Enki focuses on all-day comfort, Fujin features breathable mesh, and Soma adds an immersive feel.</p></details>
+          <details><summary>Can I use a gaming chair as my everyday desk chair?<span>+</span></summary><p>These chairs are designed for gaming setups and extended sitting. Check the dimensions and adjustment options on each product page to find the right fit for your desk.</p></details>
+          <details><summary>Where can I check availability and shipping?<span>+</span></summary><p>Choose “Learn more” on a chair to visit its Razer product page for current availability, regional pricing, and delivery information.</p></details>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer"><div class="page-shell footer-inner"><a class="razer-brand" href="#" aria-label="Razer home"><span class="razer-mark" aria-hidden="true">三</span></a><span>FIND YOUR FIT. PLAY YOUR WAY.</span><a href="#chair-lines">BACK TO CHAIRS ↑</a></div><div class="page-shell footer-bottom"><span>PRODUCT INFORMATION AND AVAILABILITY MAY VARY BY REGION.</span><span>© RAZER GAMING CHAIRS</span></div></footer>
+  </body>
+</html>
